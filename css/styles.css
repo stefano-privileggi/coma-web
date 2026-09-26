@@ -71,7 +71,8 @@ h1 span { display: block; white-space: nowrap; }
 .services h2 span { display: block; }
 .services h2 span + span { margin-top: 24px; }
 .services-copy { position: absolute; top: 11px; right: 0; width: 56%; color: var(--yellow); }
-.service-list { padding: 0; margin: 0; list-style: none; text-align: right; color: var(--yellow); font: 400 calc(36 * var(--layout-unit))/1.7 Tusker, sans-serif; text-transform: uppercase; }
+.service-list { padding: 0; margin: 0; list-style: none; text-align: right; color: var(--yellow); font: 400 calc(24 * var(--layout-unit))/1.7 Tusker, sans-serif; text-transform: uppercase; }
+.service-list li { white-space: nowrap; }
 
 .works { padding: 40px 0; background: var(--yellow); }
 .works-layout { display: grid; grid-template-columns: minmax(0, 540fr) minmax(0, 172fr); gap: calc(28 * var(--layout-unit)); }
@@ -118,7 +119,7 @@ h1 span { display: block; white-space: nowrap; }
   .services h2 span + span { margin-top: .12em; }
   .services-copy { grid-area: 2 / 1 / 3 / -1; position: static; width: auto; margin-top: 0; }
   /* La lista comparte la columna del título y se alinea con su borde derecho. */
-  .service-list { grid-area: 1 / 1; justify-self: end; align-self: start; width: 56%; height: min(209.72px, calc((100vw - 40px) * .3724)); display: flex; flex-direction: column; justify-content: space-evenly; text-align: right; font-size: clamp(18px, 4.6vw, 32px); line-height: 1.15; }
+  .service-list { grid-area: 1 / 1; justify-self: end; align-self: start; width: 56%; height: min(209.72px, calc((100vw - 40px) * .3724)); display: flex; flex-direction: column; justify-content: space-evenly; text-align: right; font-size: clamp(12px, 3vw, 24px); line-height: 1.15; }
 
   .works { padding: 32px 0; }
   .works-layout { grid-template-columns: minmax(0, 3.2fr) minmax(0, 1fr); gap: 12px; }
